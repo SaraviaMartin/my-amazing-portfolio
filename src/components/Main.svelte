@@ -1,4 +1,11 @@
 <script>
+  import Step from "./Step.svelte";
+
+  let steps = [
+    {name: 'Chatpdf', icon: 'fa-solid fa-cart-shopping'},
+    {name: 'Ultimate Todos', icon: 'fa-solid fa-list-check'},
+    {name: 'Poke', icon: 'fa-solid fa-diagram-project'},
+  ]
 
 </script>
 
@@ -36,5 +43,34 @@
                 Curious to <span class="poppins text-violet-400">see</span> any work?
             </h3>
         </div>
+        <a href="https://www.youtube.com/watch?v=-2UjwQzxvBQ&t=2351s" 
+        target="_blank"
+        class="mx-auto px-4 py-2 rounded-md border border-solid border-white flex items-center gap-2 -mb-4 sm:-mb-0 -mt-10 hover:border-violet-700 duration-200">
+           <i class="fa-regular fa-circle-play "></i>
+           <p>Watch the video</p>
+        </a>
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-10">
+            <Step step={steps[0]}>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum pariatur culpa provident!
+                   <strong class="text-violet-400">Next.js Commerce.js Stripe & Node.js +Express.js</strong> Est veritatis exercitationem error placeat a laborum aut quaerat optio, iure tenetur accusantium!
+                    Expedita doloremque assumenda officia accusamus!
+                </p>
+            </Step>
+            <Step step={steps[1]}>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum pariatur culpa provident!
+                    <strong class="text-violet-400">Next.js Commerce.js Stripe & Node.js +Express.js</strong> Est veritatis exercitationem error placeat a laborum aut quaerat optio, iure tenetur accusantium!
+                     Expedita doloremque assumenda officia accusamus!
+                 </p>
+            </Step>
+            <Step step={steps[2]}>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum pariatur culpa provident!
+                    <strong class="text-violet-400">Next.js Commerce.js Stripe & Node.js +Express.js</strong> Est veritatis exercitationem error placeat a laborum aut quaerat optio, iure tenetur accusantium!
+                     Expedita doloremque assumenda officia accusamus!
+                 </p>
+            </Step>
+        </div>
+    </section>
+    <section id="about">
+
     </section>
 </main>
