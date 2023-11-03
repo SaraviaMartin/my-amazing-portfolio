@@ -26,8 +26,11 @@
             My <span class="text-violet-400">favorite tech </span> Includes Javascript (NEXT.JS
             or SvelteKit), TailwindCSS, Node.js + Express.js & PostgreSQL or Firebase/Firestore!
         </p>
-        <a class="blueShadow mx-auto lg:mr-auto text-base sm:text-lg md:text-xl poppins
-        relative overflow-hidden px-6 py-3 group rounded-full bg-white text-slate-950 cursor-pointer" href="#" target="_blank">
+        <a class="blueShadow mx-auto lg:mr-auto lg:ml-0 text-base sm:text-lg md:text-xl poppins
+        relative overflow-hidden px-6 py-3 group rounded-full bg-white text-slate-950 cursor-pointer" 
+        href="#about" 
+        target="_blank"
+        >
         <div class="absolute top-0 right-full w-full h-full bg-violet-400 opacity-20
         group-hover:translate-x-full xz-0 duration-200"/>
         <h4 class="relative z-9">Get in touch &rarr;</h4>
@@ -76,8 +79,10 @@
             </Step>
         </div>
     </section>
-    <section id="about" class="py-20 pt-10 lg:pt-16 lg:py-32 flex flex-col
-     gaap-16 sm:gap-20 md:gap-24 relative">
+    <section
+        id="about"
+        class="py-20 pt-10 lg:pt-16 lg:py-32 flex flex-col gap-16 sm:gap-20 md:gap-24 relative"
+    >
         <div class="flex flex-col gap-2 text-center relative before:absolute before:top-0
         before:left-0 before:w-2/3 before:h-1.5 before:bg-violet-700 after:absolute after:bottom-0
         after:right-0 after:w-2/3 after:h-1.5 after:bg-violet-700 py-4">
@@ -102,57 +107,72 @@
         </div>
         {/each}
     </div>
-    <h5 class="text-2xl sm:text-3xl font-semibold text-center poppins">The <span class="text-violet-400 poppins">Complete</span> Package</h5>
-    <div class="flex flex-col overflow-x-scroll gap-10 max-w-[800px] mx-auto w-full">
-        <table class="bg-white text-slate-700 rounded text-center">
-            <thead class="border-b border-solid border-slate-200">
-                <tr class="">
-                    <th/>
-                    <th class="whitespace-nowrap p-2 px-4">Candidate #1</th>
-                    <th class="whitespace-nowrap p-2 px-4">Candidate #2</th>
-                    <th class="whitespace-nowrap p-2 px-4">Candidate #3</th>
-                    <th class="whitespace-nowrap bg-violet-700 text-white p-4 px-8">Me</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr class="border-b border-solid border-slate-200">
-                    <td class="border-r border-solid border-white pl-4 pr-8 py-4 font-semibold
-                    text-sm whitespace-nowrap">Dedication</td>
-                    <td><i class="fa-solid fa-check text-slate-500"></i></td>
-                    <td><i class="fa-solid fa-xmark text-slate-500"></i></td>
-                    <td><i class="fa-solid fa-check text-slate-500"></i></td>
-                    <td><i class="fa-solid fa-check text-green-500"></i></td>
-                </tr>
-                <tr class="border-b border-solid border-slate-200">
-                    <td class="border-r border-solid border-white pl-4 pr-8 py-4 font-semibold
-                    text-sm whitespace-nowrap">Critical Thought</td>
-                    <td><i class="fa-solid fa-xmark text-slate-500"></i></td>
-                    <td><i class="fa-solid fa-check text-slate-500"></i></td>
-                    <td><i class="fa-solid fa-xmark text-slate-500"></i></td>
-                    <td><i class="fa-solid fa-check text-green-500"></i></td>
-                </tr>
-                <tr class="border-b border-solid border-slate-200">
-                    <td class="border-r border-solid border-white pl-4 pr-8 py-4 font-semibold
-                    text-sm whitespace-nowrap">Interpersonal Skills</td>
-                    <td><i class="fa-solid fa-xmark text-slate-500"></i></td>
-                    <td><i class="fa-solid fa-check text-slate-500"></i></td>
-                    <td><i class="fa-solid fa-check text-slate-500"></i></td>
-                    <td><i class="fa-solid fa-check text-green-500"></i></td>
-                </tr>
-                <tr class="border-b border-solid border-slate-200">
-                    <td class="border-r border-solid border-white pl-4 pr-8 py-4 font-semibold
-                    text-sm whitespace-nowrap">Programming Ability</td>
-                    <td><i class="fa-solid fa-check text-slate-500"></i></td>
-                    <td><i class="fa-solid fa-check text-slate-500"></i></td>
-                    <td><i class="fa-solid fa-xmark text-slate-500"></i></td>
-                    <td><i class="fa-solid fa-check text-green-500"></i></td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
-    <div class="mx-auto -mt-12 italic sm:hidden opacity-50">
-        <p>Scroll to see more &rarr;</p>
-    </div>
-    <p class="mx-auto">So why not invest ?</p>
+    <h5 class={" text-2xl sm:text-3xl font-semibold text-center poppins "}>
+            The <span class="text-violet-400">Complete</span> Package
+        </h5>
+        <div
+            class="flex flex-col overflow-x-scroll gap-10 max-w-[800px] mx-auto w-full"
+        >
+            <table class="bg-white text-slate-700 rounded text-center">
+                <thead class={"border-b border-solid border-slate-200  "}>
+                    <tr class="">
+                        <th />
+                        <th class="whitespace-nowrap p-2 px-4">Candidate #1</th>
+                        <th class="whitespace-nowrap p-2 px-4">Candidate #2</th>
+                        <th class="whitespace-nowrap p-2 px-4">Candidate #3</th>
+                        <th
+                            class="bg-violet-700 text-white whitespace-nowrap p-4 px-8"
+                            >Me</th
+                        >
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="border-b border-solid border-slate-200">
+                        <td
+                            class="border-r border-solid border-white pl-4 pr-8 py-4 font-semibold text-sm"
+                            >Dedication</td
+                        >
+                        <td><i class="fa-solid fa-xmark text-slate-500" /></td>
+                        <td><i class="fa-solid fa-check text-slate-500" /></td>
+                        <td><i class="fa-solid fa-xmark text-slate-500" /></td>
+                        <td><i class="fa-solid fa-check text-green-500" /></td>
+                    </tr>
+                    <tr class="border-b border-solid border-slate-200">
+                        <td
+                            class="border-r border-solid border-white pl-4 pr-8 py-4 font-semibold text-sm"
+                            >Critical Thought</td
+                        >
+                        <td><i class="fa-solid fa-xmark text-slate-500" /></td>
+                        <td><i class="fa-solid fa-check text-slate-500" /></td>
+                        <td><i class="fa-solid fa-check text-slate-500" /></td>
+                        <td><i class="fa-solid fa-check text-green-500" /></td>
+                    </tr>
+                    <tr>
+                        <td
+                            class="border-r border-solid border-white pl-4 pr-8 py-4 font-semibold text-sm"
+                            >Interpersonal Skills</td
+                        >
+                        <td><i class="fa-solid fa-check text-slate-500" /></td>
+                        <td><i class="fa-solid fa-check text-slate-500" /></td>
+                        <td><i class="fa-solid fa-xmark text-slate-500" /></td>
+                        <td><i class="fa-solid fa-check text-green-500" /></td>
+                    </tr>
+                    <tr class="border-t border-solid border-slate-200">
+                        <td
+                            class="border-r border-solid border-white pl-4 pr-8 py-4 font-semibold text-sm"
+                            >Progamming Ability</td
+                        >
+                        <td><i class="fa-solid fa-check text-slate-500" /></td>
+                        <td><i class="fa-solid fa-xmark text-slate-500" /></td>
+                        <td><i class="fa-solid fa-check text-slate-500" /></td>
+                        <td><i class="fa-solid fa-check text-green-500" /></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="mx-auto -mt-12 italic sm:hidden opacity-50">
+            <p>Scroll to see more &rarr;</p>
+        </div>
+        <p class="mx-auto">So why not invest?</p>
     </section>
 </main>
