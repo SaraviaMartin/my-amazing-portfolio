@@ -3,8 +3,8 @@
 
   let steps = [
     {name: 'Chatpdf', icon: 'fa-solid fa-cart-shopping'},
-    {name: 'Ultimate Todos', icon: 'fa-solid fa-list-check'},
-    {name: 'Poke', icon: 'fa-solid fa-diagram-project'},
+    {name: 'Shopping Cart', icon: 'fa-solid fa-list-check'},
+    {name: 'Movie Search', icon: 'fa-solid fa-diagram-project'},
   ]
 
   let benefits = [
@@ -20,11 +20,13 @@
         <div class="flex flex-col lg:justify-center text-center lg:text-left gap-6 md:gap-8 lg:gap-10">
             <h2 class="font-semibold text-4xl sm:text-5xl md:text-6xl">
                 Hi I'm <span class="poppins text-violet-400">Juan</span> Martin <br/> Front-End
-                <span class="poppins text-violet-400">Developer</span>
+                <span class="poppins text-violet-400">Software Developer </span>
             </h2>
             <p class="text-base sm:text-lg md:text-xl">
-            My <span class="text-violet-400">favorite tech </span> Includes Javascript (NEXT.JS
-            or SvelteKit), TailwindCSS, Node.js + Express.js & PostgreSQL or Firebase/Firestore!
+            My <span class="text-violet-400">favorite tech </span> Includes  <span class="text-violet-400">Javascript (NEXT.JS), TailwindCSS, Node.js + Express.js & PostgreSQL or Firebase!</span>  Apart from coding, some other activities that I love to do!
+            playing video games,
+            writing poetry and novels,
+            train in the gym.
         </p>
         <a class="blueShadow mx-auto lg:mr-auto lg:ml-0 text-base sm:text-lg md:text-xl poppins
         relative overflow-hidden px-6 py-3 group rounded-full bg-white text-slate-950 cursor-pointer" 
@@ -52,29 +54,27 @@
                 Curious to <span class="poppins text-violet-400">see</span> any work?
             </h3>
         </div>
-        <a href="https://www.youtube.com/watch?v=-2UjwQzxvBQ&t=2351s" 
+        <a href="https://github.com/SaraviaMartin?tab=repositories" 
         target="_blank"
         class="mx-auto px-4 py-2 rounded-md border border-solid border-white flex items-center gap-2 -mb-4 sm:-mb-0 -mt-10 hover:border-violet-700 duration-200">
            <i class="fa-regular fa-circle-play "></i>
-           <p>Watch the video</p>
+           <p>Watch my repos</p>
         </a>
         <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-10">
             <Step step={steps[0]}>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum pariatur culpa provident!
-                   <strong class="text-violet-400">Next.js Commerce.js Stripe & Node.js +Express.js</strong> Est veritatis exercitationem error placeat a laborum aut quaerat optio, iure tenetur accusantium!
-                    Expedita doloremque assumenda officia accusamus!
+                <p>Desarrollo de una herramienta que permite interactuar mediante chat con archivos PDF, facilitando la extracción y consulta de información de manera dinámica.
+                   <strong class="text-violet-400">Next.js, TypeScript, Clerk, Neon DB, Tailwind CSS, OpenAI API, y Vercel.</strong> 
+                    
                 </p>
             </Step>
             <Step step={steps[1]}>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum pariatur culpa provident!
-                    <strong class="text-violet-400">Next.js Commerce.js Stripe & Node.js +Express.js</strong> Est veritatis exercitationem error placeat a laborum aut quaerat optio, iure tenetur accusantium!
-                     Expedita doloremque assumenda officia accusamus!
+                <p>Simulación de carrito de compras creada con React, que permite visualizar una lista de productos, filtrarlos por precio y categoría, y gestionar el carrito. Los usuarios pueden agregar, eliminar o modificar la cantidad de productos, con cambios sincronizados en tiempo real con la lista.
+                    <strong class="text-violet-400">React, HTML, CSS.</strong> 
                  </p>
             </Step>
             <Step step={steps[2]}>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum pariatur culpa provident!
-                    <strong class="text-violet-400">Next.js Commerce.js Stripe & Node.js +Express.js</strong> Est veritatis exercitationem error placeat a laborum aut quaerat optio, iure tenetur accusantium!
-                     Expedita doloremque assumenda officia accusamus!
+                <p>Aplicación web desarrollada para buscar películas y obtener información detallada utilizando la API de OMDb.
+                    <strong class="text-violet-400">React, HTML, CSS, JavaScript.</strong> 
                  </p>
             </Step>
         </div>
