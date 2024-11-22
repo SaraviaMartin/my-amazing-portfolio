@@ -8,9 +8,9 @@
   ]
 
   let benefits = [
-    {name: 'a self taught developer', description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum saepe nostrum corporis, explicabo tempora perferendis? Voluptatem corrupti totam, exercitationem quod unde dolores maxime minima alias laborum tempora qui similique obcaecati'},
-    {name: 'a product design & UX finatic', description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum saepe nostrum corporis, explicabo tempora perferendis? Voluptatem corrupti totam, exercitationem quod unde dolores maxime minima alias laborum tempora qui similique obcaecati.'},
-    {name: 'an excelent comunicator', description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum saepe nostrum corporis, explicabo tempora perferendis? Voluptatem corrupti totam, exercitationem quod unde dolores maxime minima alias laborum tempora qui similique obcaecati.'},
+    {name: 'a self taught developer', description: 'passionate about building functional and visually appealing websites. I’ve dived deep into full-stack development, exploring everything from frontend frameworks like React to backend databases and APIs. I’ve also picked up some skills in cybersecurity and Linux along the way, which come in handy for ensuring smooth and secure projects. I love learning new technologies, solving problems, and constantly improving my craft.'},
+    {name: 'a web3 and crypto finatic', description: 'who s all about exploring the future of decentralized tech. From diving into blockchain development to keeping up with the latest trends in crypto, I’m always looking for ways to integrate these innovations into real-world applications. I love the idea of building for a decentralized future and believe Web3 is the next big step in tech evolution.'},
+    {name: 'an excelent comunicator', description: 'who loves connecting with people and making complex ideas easy to understand. Whether it s collaborating with a team, explaining technical concepts, or just making sure everyone s on the same page, I enjoy creating clear and effective communication. I believe good communication is key to solving problems and building strong relationships, both in work and life.'},
   ]
 
 </script>
@@ -28,7 +28,7 @@
             writing poetry and novels,
             train in the gym.
         </p>
-        <a class="blueShadow mx-auto lg:mr-auto lg:ml-0 text-base sm:text-lg md:text-xl poppins
+        <!-- <a class="blueShadow mx-auto lg:mr-auto lg:ml-0 text-base sm:text-lg md:text-xl poppins
         relative overflow-hidden px-6 py-3 group rounded-full bg-white text-slate-950 cursor-pointer" 
         href="#about" 
         target="_blank"
@@ -36,7 +36,7 @@
         <div class="absolute top-0 right-full w-full h-full bg-violet-400 opacity-20
         group-hover:translate-x-full xz-0 duration-200"/>
         <h4 class="relative z-9">Get in touch &rarr;</h4>
-        </a>
+        </a> -->
         </div>
         <div class="relative shadow-2xl grid place-items-center">
             <img src={"images/profile.png"} alt="Profile image" class="object-cover z-[2] max-h-[70vh]"/>
