@@ -62,18 +62,17 @@
         </a>
         <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-10">
             <Step step={steps[0]}>
-                <p>Desarrollo de una herramienta que permite interactuar mediante chat con archivos PDF, facilitando la extracción y consulta de información de manera dinámica.
-                   <strong class="text-violet-400">Next.js, TypeScript, Clerk, Neon DB, Tailwind CSS, OpenAI API, y Vercel.</strong> 
-                    
+                <p>Development of a tool that allows interaction through chat with PDF files, making it easier to extract and query information dynamically.
+                   <strong class="text-violet-400">Next.js, TypeScript, Clerk, Neon DB, Tailwind CSS, OpenAI API, y Vercel.</strong>  
                 </p>
             </Step>
             <Step step={steps[1]}>
-                <p>Simulación de carrito de compras creada con React, que permite visualizar una lista de productos, filtrarlos por precio y categoría, y gestionar el carrito. Los usuarios pueden agregar, eliminar o modificar la cantidad de productos, con cambios sincronizados en tiempo real con la lista.
+                <p>Shopping cart simulation created with React, which allows showing a product list, filtering by price and category, and managing the cart. Users can add, remove, or change the quantity of products, with real-time updates synced with the list.
                     <strong class="text-violet-400">React, HTML, CSS.</strong> 
                  </p>
             </Step>
             <Step step={steps[2]}>
-                <p>Aplicación web desarrollada para buscar películas y obtener información detallada utilizando la API de OMDb.
+                <p>Web application developed to search movies and get detailed information using the OMDb API.
                     <strong class="text-violet-400">React, HTML, CSS, JavaScript.</strong> 
                  </p>
             </Step>
